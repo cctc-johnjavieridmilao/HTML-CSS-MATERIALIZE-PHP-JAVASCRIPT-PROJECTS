@@ -1,0 +1,133 @@
+html,body{
+	overflow-x: hidden;
+	background-color: #e5e6e8;
+}
+.image {
+	width: 60px;
+  height: 60px;
+ margin-left: 20px;
+ margin-top: 5px;
+}
+span {
+ color: white;
+ margin-left: 5px;
+}
+header {
+ width: 100%;
+ height: 70px;
+ background-color: green;
+ }
+ .fas{
+ font-size: 40px;
+ color: white ;
+    		
+}
+.fafa{
+  margin-top: -50px;
+ margin-left: 10px;
+ }
+ .fafa i:hover{
+color: black;
+transition: 1s;
+}
+.personaltxt h1{
+	font-family: bold Century Gothic;
+	font-size: 23px;
+	color: solid black;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.educ h1{
+	font-family: bold Century Gothic;
+	font-size: 23px;
+	color: solid black;
+	margin-top: 105px;
+	margin-left: -930px;
+
+}
+.employment h1{
+	font-family: bold Century Gothic;
+	font-size: 23px;
+	color: solid black;
+    margin-top: 130px;
+    margin-left: -1270px;
+
+}
+#footer{
+	margin-left: 450px;
+	margin-top: -5px;
+	
+}
+#footer p{
+	color: #adafb2;
+}
+.foremployed h1{
+	font-family: bold Century Gothic;
+	font-size: 18px;
+	color: solid black;
+	margin-left: 10px;
+}
+.looking h1{
+	font-family: bold Century Gothic;
+	font-size: 20px;
+	color: solid black;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+#comment{
+	font-size: 20px;
+}
+.txt1 h1{
+	font-family: bold Century Gothic;
+	font-size: 22px;
+	color: solid black;
+}
+.txtcomment h1{
+	font-family: bold Century Gothic;
+	font-size: 22px;
+	color: solid black;
+}
+.txtfac h1{
+	font-family: bold Century Gothic;
+	font-size: 22px;
+	color: solid black;
+}
+#totop{
+	margin-left: 670px;
+	margin-top: -50px;
+}
+.txtservice h1{
+	font-family: bold Century Gothic;
+	font-size: 22px;
+	color: solid black;
+}
+input:hover{
+	transition: 1s;
+	background-color: #acadaf;
+	color: black;
+}
+select:hover{
+	transition: 1s;
+	background-color: #acadaf;
+	color: black;
+}
+textarea:hover{
+	transition: 1s;
+	background-color: #acadaf;
+	color: black;
+}
+
+@media screen and (max-width: 786px){
+	#footer{
+		margin-left: 50px;
+		margin-top: 30px;
+	}
+	#footer p{
+	font-size: 12px;
+	margin-left: -40px;
+}
+.educ h1{
+	margin-left: 30px;
+	margin-top: 10px;
+}
+}

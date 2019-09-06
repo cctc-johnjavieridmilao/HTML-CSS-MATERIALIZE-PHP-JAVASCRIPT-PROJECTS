@@ -1,0 +1,632 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* header */
+
+#head {
+    width: 100%;
+    height: 57px;
+    position: absolute;
+}
+
+#btn_delete {
+    margin-left: 800px;
+   margin-top: -400px;
+}
+
+#head-logo {
+    width: 40%;
+    float: left;
+}
+
+#head-login {
+    float: right;
+    margin-top: -4px;
+    margin-right: 5px;
+}
+#aw{
+    color: green;
+    text-align: center;
+}
+/*#head-login input {
+    width: 39%;
+    height: 26px;
+    padding-left: 6px;
+    border-radius: 1px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF; 
+    box-shadow: rgba(0,0,0, 0.4) 0 0 6px;
+    transition: .5s;
+}
+
+#head-login input:hover {
+    background-color: #e3e3e3;
+} */
+
+#head-login button {
+    height: 30px;
+    color: #FFFFFF;
+    font-family: Century Gothic;
+    cursor: pointer;
+    margin-top: 8px;
+    background-color: transparent;
+    border: 1px solid transparent;    
+    border-right: 2px solid #fff;
+    transition: .5s;
+}
+
+#head-login button:hover {   
+    border-right: 12px solid #BF0209;
+    box-shadow: rgba(0,0,0, 0.4) 0 0 6px;
+    color: #fff;
+}
+
+#logoAlumni {
+    width: 65px;
+    position: relative;
+    margin-left: 15px;
+    margin-top: 16px;
+}
+
+#alumni-text {
+    font-family: Century Gothic;
+    font-size: 133%;
+    color: #F1F1F1;
+    position: absolute;
+    margin-top: 28px;
+    letter-spacing: 2px;
+
+}
+
+/* End of Header*/
+/* Body */
+
+/* Selection One */
+
+#sec-one {
+    background-color: green;
+    background-position: center center;
+    border-bottom: 3px solid #B70006;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url("../img/cyn.jpg");
+    width: 100%;
+    height: 80%;
+
+}
+
+#firstPage {
+    background-color: rgba(0,0,0,0.30);
+    overflow: hidden;
+    height: 100%;
+}
+
+.font-home {
+    font-family: Clarendon Blk BT;
+    font-size: 450%;
+    font-weight: bold;
+    width: 55%;
+    margin: 0;
+    margin-left: 45%;
+    margin-top: 8%;
+    color: #fff;
+}
+
+.font-paragraph1 {
+    color: #fff;
+    font-family: Century Gothic;
+    width: 46%;
+    margin: 0;
+    margin-left: 45%;
+    font-size: 127%;
+    padding-top: 13px;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+    border-bottom: 5px solid #6D6D6D;
+}
+
+.font-paragraph2 {
+    color: #fff;
+    font-family: Century Gothic;
+    width: 50%;
+    margin: 0;
+    margin-left: 45%;
+    font-size: 140%;
+    padding-top: 13px;
+    letter-spacing: 0.4px;
+    padding-bottom: 10px;
+}
+
+#button-index {
+    width: 50%;
+    margin-left: 58%;
+}
+
+#alumni-button {
+    width: 35%;
+    float: left;
+}
+
+#alumni-button select {    
+    width: 100%;
+    height: 48px;
+    color: #fff;
+    font-family: Century Gothic;
+    font-size: 1em;
+    border-radius: 3px;
+    border: 1px solid white;
+    background-color: green;
+    transition: .5s;
+    padding-left: 7px;
+    
+}
+
+#alumni-button select:hover {
+    border: 1px solid #82060B;
+    cursor: pointer;
+}
+#facebook-button {
+    width: 35%;
+    float: left;
+}
+
+#facebook-button button {    
+    width: 100%;
+    height: 48px;
+    color: #fff;
+    font-family: Century Gothic;
+    font-size: 1em;
+    border: 1px solid #3B5998;
+    background-color: #3B5998;
+    transition: .5s;
+    margin-top: 35px;
+    margin-left: 242px;
+}
+
+#facebook-button button:hover {
+    background-color: #4B68A5;
+    border: 1px solid #4B68A5;
+    transition: .5s;
+    color: #FFFFFF;
+    font-size: 15;
+    cursor: pointer;
+}
+
+#graduate-button {
+    width: 35%;
+    float: left;
+    margin-left: 0px;
+    padding-bottom: 8px;
+    margin-right: 10px;
+}
+
+#graduate-button button {
+    width: 100%;
+    height: 48px;
+    font-family: Century Gothic;
+    font-size: 1em;
+    color: block;
+    border-radius: 3px;
+    border: 1px solid #707172;
+    background-color: green;
+    transition: .5s;
+    font: bold;
+
+}
+
+#graduate-button button:hover {
+    background-color: rgba(255, 255, 255, 0.83);
+    border: 1px solid #D5D5D5;
+    cursor: pointer;
+
+}
+
+#batchmate-button {
+    width: 35%;
+    margin-left: 6px;
+}
+
+#batchmate-button select {
+    width: 101.5%;
+    height: 48px;
+    color: #000;
+    font-family: Century Gothic;
+    font-size: 1em;
+    border-radius: 3px;
+    border: 1px solid #9F8D73;
+    background-color: rgba(255, 255, 255, 0.42);
+    transition: .5s;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    margin-left: 164.3%;
+    padding-left: 7px;
+}
+
+
+#batchmate-button select:hover {
+    background-color: rgba(255, 255, 255, 0.83);
+    border: 1px solid #D5D5D5;
+    cursor: pointer;
+}
+
+/* Selection Two */
+
+/*
+
+.first-content {
+    width: 25%;
+    margin-left: 3%;
+}
+
+.seco-content {
+    width: 28%;
+    margin-left: 4%;
+}
+
+.third-content {
+    width: 28%;
+    margin-left: 5%;
+}
+
+#first-pic {
+    float: left;    
+}
+
+#first-title {
+    text-align: center;
+    margin-top: 3px;
+    font-size: 133%;
+    color: #B70006;
+    font-family: Century Gothic;
+}
+
+
+
+#content-paragragh {
+    width: 100%;
+    margin-top: 3px;
+    margin-left: 3%;
+    font-size: 100%;
+    text-align: center;
+    color: #5A5A5A;
+    font-family: Century Gothic;
+}
+*/
+
+#two-sentence {
+    margin: 0;
+    padding: 15px;
+    background-color: rgba(130, 130, 130, 0.1);
+    font-size: 153%;
+    text-align: center;
+    color: #B1B1B1;
+    letter-spacing: 1px;
+    font-family: Century Gothic;
+}
+
+.content {
+    text-align: center;
+    display: inline-block;
+    width: 25%;
+    margin-left: 5.3%;
+}
+
+#first-image {
+    width: 132px;
+    height: 130px;
+}
+
+#sec-image {
+    width: 178px;
+    height: 130px;
+}
+
+#third-image {
+    width: 206px;
+    height: 130px;
+}
+
+#header-li {
+    text-align: center;
+    font-size: 130%;
+    color: #B70006;
+    letter-spacing: 0.4px;
+    font-family: Century Gothic;
+}
+.foter-image {
+    float: right;
+    margin-top: -1px; 
+    margin-right: 2px;
+}
+
+
+#content-paragraph {
+    text-align: center;
+    font-size: 100%;
+    color: #4E4E4E;
+    letter-spacing: 0.5px;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Century Gothic;
+}
+
+#index-footer {
+    padding:10px;
+    background-color: green;
+    padding-bottom: 52px;
+}
+#index-footer h1 {
+    font-size: 20px;
+   float: right;
+   margin-top: -40px;
+   color: white;
+    font-family: Century Gothic;
+}
+
+#index-footer p {
+    font-size: 86%;
+    text-align: center;
+    color: white;
+    font-family: Century Gothic;
+}
+
+/* End of Body */
+
+
+/* RESPONSIVE */
+
+@media screen and (max-width:960px){
+
+    .font-home {
+        width: 100%;
+        margin-top: 10%;
+        margin-left: 7%;
+        font-size: 350%;
+    }
+
+    .font-paragraph1 {
+        width: 73%;
+        font-size: 116%;
+        margin-left: 22%;
+    }
+
+    .font-paragraph2 {
+        width: 75%;
+        font-size: 150%;
+        margin-left: 22%;
+    }
+
+    #button-index {
+        width: 75%;
+        margin-left: 42%;
+    }
+
+    #batchmate-button {
+        width: 100%;
+    }
+
+    #batchmate-button select {
+        width: 53.3%;
+        margin-left: 41.2%;
+        margin-top: 1%;
+    }
+
+    #content-paragraph {
+        width: 48%;
+        font-size: 95%;
+    }
+
+    .content {
+        width: 32%;
+        margin-left: 0;
+    }
+
+    #first-image {
+        width: 122px;
+        height: 118px;
+        margin-bottom: 2%;
+    }
+
+    #sec-image {
+        width: 171px;
+        height: 134px;
+        margin-bottom: 2%;
+    }
+
+    #third-image {
+        width: 195px;
+        height: 118px;
+        margin-bottom: 2%;
+    }
+
+    #header-li {
+        font-size: 100%;
+    }
+
+    #secondPage ul {
+        padding: 0;
+    }
+
+}
+
+@media screen and (max-width:786px){
+
+    .font-home {
+        width: 100%;
+        margin-top: 10%;
+        margin-left: 7%;
+        font-size: 350%;
+    }
+
+    .font-paragraph1 {
+        width: 73%;
+        font-size: 116%;
+        margin-left: 22%;
+    }
+
+    .font-paragraph2 {
+        width: 75%;
+        font-size: 150%;
+        margin-left: 22%;
+    }
+
+    #button-index {
+        width: 75%;
+        margin-left: 42%;
+    }
+
+    #batchmate-button {
+        width: 100%;
+    }
+
+    #batchmate-button select {
+        width: 53.3%;
+        margin-left: 41.2%;
+        margin-top: 1%;
+    }
+
+    #content-paragraph {
+        width: 48%;
+        font-size: 95%;
+    }
+
+    .content {
+        width: 32%;
+        margin-left: 0;
+    }
+
+    #first-image {
+        width: 122px;
+        height: 118px;
+        margin-bottom: 2%;
+    }
+
+    #sec-image {
+        width: 171px;
+        height: 134px;
+        margin-bottom: 2%;
+    }
+
+    #third-image {
+        width: 195px;
+        height: 118px;
+        margin-bottom: 2%;
+    }
+
+    #header-li {
+        font-size: 100%;
+    }
+
+    #secondPage ul {
+        padding: 0;
+    }
+
+}
+
+@media screen and (max-width:481px){
+
+    /* Header */
+
+
+
+    #head {
+        height: 45px;
+    }
+
+    #logoAlumni {
+        width: 44px;
+        margin-top: 7px;
+    }
+
+    #alumni-text {
+        font-size: 110%;
+        margin-top: 13px;
+    }
+
+    #head-login {
+        margin-top: -1px;
+    }
+
+    /* body */
+
+    .font-home {
+        width: 94%;
+        font-size: 210%;
+        margin-left: 5%;    
+    }
+
+    .font-paragraph1 {
+        width: 91%;
+        font-size: 87%;
+        padding-top: 2px;
+        margin-left: 5%;
+    }
+
+    .font-paragraph2 {
+        width: 91%;
+        font-size: 109%;
+        padding-top: 2px;
+        margin-left: 5%;
+    }
+
+    #content-paragraph {
+        width: 90%;
+        font-size: 95%;
+    }
+
+    #button-index {
+        width: 100%;
+        margin-left: 13%;
+    }
+
+    #alumni-button select {
+        height: 31px;
+        font-size: 84%;
+        border-radius: 1px;
+    }
+
+    #graduate-button button {
+        height: 31px;
+        font-size: 84%;
+        border-radius: 1px;
+    }
+
+    #batchmate-button {
+        width: 100%;
+        margin: 0;
+    }
+
+    #batchmate-button select {
+        width: 71%;
+        height: 31px;
+        font-size: 84%;
+        border-radius: 1px;
+        margin: 2% 0 7% 13%;
+    }
+
+
+}
+
+@media screen and (max-width:320px){
+    .font-home {
+        margin-top: 15%;
+    }
+
+    #logoAlumni {
+        width: 35px;
+        margin-left: 7px;
+    }
+
+    #alumni-text {
+        font-size: 94%;
+        margin-top: 11px;
+    }
+
+    #head-login button {
+        height: 25px;
+    }
+}

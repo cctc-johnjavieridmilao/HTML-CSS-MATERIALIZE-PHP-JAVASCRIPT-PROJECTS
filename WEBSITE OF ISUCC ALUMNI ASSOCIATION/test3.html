@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<form action="sent.php" method="post" name="frm">
+    <input type="text" name="name_input" id="name">
+    <br>
+    <button type="submit" class="button button-dark" id="send" disabled>Send message</button>
+</form>
+
+</body>
+</html>
+<script type="text/javascript">
+	document.getElementById("name").addEventListener("keyup", function() {
+    var nameInput = document.getElementById('name').value;
+    if (nameInput != "") {
+        document.getElementById('send').removeAttribute("disabled");
+    } else {
+        document.getElementById('send').setAttribute("disabled", null);
+    }
+});
+</script>

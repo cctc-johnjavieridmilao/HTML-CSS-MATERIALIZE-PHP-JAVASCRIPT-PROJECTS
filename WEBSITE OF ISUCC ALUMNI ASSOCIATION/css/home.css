@@ -1,0 +1,163 @@
+body::-webkit-scrollbar {
+    width: .5em;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+  }
+#scrollToTopButton {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  height: 60px;
+  width: 60px;
+  font-size: xx-large;
+  border-radius: 50%;
+  border: 0;
+  outline: 0;
+  background-color: white;
+  cursor: pointer;
+  box-shadow: 2px 4px 16px rgba(0,0,0,0,3);
+  opacity: 0;
+  transform: scale(0);
+  visibility: hidden;
+  transition: .2s;
+
+}
+p{
+color: black;
+font-size: 13px;
+}
+#scrollToTopButton.show{
+    opacity: 1;
+    transform: scale(1);
+    visibility: visible;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+}
+#ul{
+  width: 60px;
+  position: absolute;
+  overflow: hidden;
+}
+.leftside{
+  position: absolute;
+  top: 40%;
+}
+.leftside li{
+  list-style-type: none;
+  padding: 20px;
+  transition: .6s;
+  position: relative;
+  color: white;
+}
+.leftside li i{
+  font-size: 15px;
+}
+.leftside li:hover{
+padding: 20px 30px;
+}
+.leftside li:nth-child(1){
+  background: #3b5998;
+}
+.leftside li:nth-child(2){
+  background: #dd4b39;
+}
+.leftside li:nth-child(3){
+  background: #00aced;
+}
+ #home{
+      -webkit-animation-delay: 1s;
+    }
+    #about{
+  -webkit-animation-delay: 2s;
+    }
+     #reg{
+  -webkit-animation-delay: 3s;
+    }
+    #form{
+  -webkit-animation-delay: 4s;
+    }
+     #msg{
+  -webkit-animation-delay: 5s;
+    }
+     #acc{
+  -webkit-animation-delay: 6s;
+    }
+     #out{
+  -webkit-animation-delay: 7s;
+    }
+.rounded-circle {
+  border-radius: 50% !important;
+}
+
+.rounded-0 {
+  border-radius: 0 !important;
+}
+#announce:hover{
+    overflow-y: auto;
+   
+}
+#news:hover{
+    overflow-y: auto;
+   
+}
+
+ a{
+ 	font-size: 13px;
+ }
+ #sec-one {
+    background-color: green;
+    background-position: center center;
+    border-bottom: 5px solid yellow;
+     border-top: 1px solid white;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url("../img/cyn.jpg");
+    width: 100%;
+    height: 100%;
+
+    }
+#firstPage {
+    background-color: rgba(0,0,0,0.60);
+    overflow: hidden;
+    height: 100%;
+    }
+    .clearfix:before,
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+.clearfix:after {clear: both;}
+.clearfix {zoom: 1;} /* IE 5.5/6/7 */
+
+	@media screen and (max-width: 786px){
+     #pages{
+     left: 200px;
+     }
+     #contact{
+      right: 50px;
+     }
+     #paging{
+     margin-top: 600px;
+      margin-left: -450px;
+     }
+     
+     #title{
+     display: none;
+     }
+     #text{
+      display: none;
+     }
+
+	}

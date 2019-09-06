@@ -1,0 +1,284 @@
+body {
+	background-color: #FFFFFF;
+}
+
+
+#showOverlay {
+     visibility: hidden;
+     position: absolute;
+     left: 0px;
+     top: 0px;
+     width:100%;
+     height:100%;
+     position: fixed;
+     z-index: 1;
+     background-color: rgba(0, 0, 0, 0.55);
+     
+}
+#showOverlay1 {
+     visibility: hidden;
+     position: absolute;
+     left: 0px;
+     top: 0px;
+     width:100%;
+     height:100%;
+     position: fixed;
+     z-index: 1;
+     background-color: rgba(0, 0, 0, 0.55);
+}
+#showOverlay2 {
+     visibility: hidden;
+     position: absolute;
+     left: 0px;
+     top: 0px;
+     width:100%;
+     height:100%;
+     position: fixed;
+     z-index: 1;
+     background-color: rgba(0, 0, 0, 0.55);
+}
+
+.content-login {
+    width: 34%;
+    position: fixed;
+    top: 9%;
+    left: 33%;
+    background-color: #FFFFFF;
+    border-radius: 2px;
+    z-index: 11;
+    border-bottom: 23px solid #96989A;
+    -moz-box-shadow: rgba(0,0,0, 10) 0 0 200px;
+    -webkit-box-shadow: rgba(0,0,0, 10) 0 0 200px;
+    box-shadow: rgba(0,0,0, 10) 0 0 200px;
+}
+.content-login1 {
+    width: 34%;
+    position: fixed;
+    top: 9%;
+    left: 33%;
+    background-color: #FFFFFF;
+    border-radius: 2px;
+    z-index: 11;
+    border-bottom: 23px solid #96989A;
+    -moz-box-shadow: rgba(0,0,0, 10) 0 0 200px;
+    -webkit-box-shadow: rgba(0,0,0, 10) 0 0 200px;
+    box-shadow: rgba(0,0,0, 10) 0 0 200px;
+
+}
+.content-login2 {
+    width: 34%;
+    position: fixed;
+    top: 9%;
+    left: 33%;
+    background-color: #FFFFFF;
+    border-radius: 2px;
+    z-index: 11;
+    border-bottom: 23px solid #96989A;
+    -moz-box-shadow: rgba(0,0,0, 10) 0 0 200px;
+    -webkit-box-shadow: rgba(0,0,0, 10) 0 0 200px;
+    box-shadow: rgba(0,0,0, 10) 0 0 200px;
+
+}
+
+#login-logo {
+    margin-top: 7px;
+    text-align: center;
+}
+
+#login-logo img {
+    width: 85px;
+    height: 70px;
+}
+
+#login-logo p {
+    font-family: Century Gothic;
+    color: #DA302C;
+    font-size: 130%;
+    margin-top: 4px;
+    letter-spacing: 2px;
+}
+
+#exit-button {
+	width: 25px;
+    height: 25px;
+    cursor: pointer;
+    margin-left: 94.1%;
+    margin-top: 2px;
+}
+
+#exit-button1 {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    margin-left: 94.1%;
+    margin-top: 2px;
+}
+
+
+.input-text {
+	width: 86.5%;
+	margin-left: 5%;
+}
+
+.input-text input {
+	width: 100%;
+	height: 38px;
+    padding-left: 14px;
+    font-family: Century Gothic;
+    font-size: 85%;
+    margin-bottom: 3%;
+    border-radius: 2px;
+    border: 1px;
+    letter-spacing: 2px;
+    -moz-box-shadow: rgba(0,0,0, .5) 0 0 5px;
+    -webkit-box-shadow: rgba(0,0,0, .5) 0 0 5px;
+    box-shadow: rgba(0,0,0, .5) 0 0 5px;
+}
+.txtarea textarea {
+    width: 100%;
+    height: 38px;
+    padding-left: 14px;
+    font-family: Century Gothic;
+    font-size: 85%;
+    margin-bottom: 3%;
+    border-radius: 2px;
+    border: 1px;
+    letter-spacing: 2px;
+    -moz-box-shadow: rgba(0,0,0, .5) 0 0 5px;
+    -webkit-box-shadow: rgba(0,0,0, .5) 0 0 5px;
+    box-shadow: rgba(0,0,0, .5) 0 0 5px;
+}
+
+#alumni-buttons {
+	width: 87%;
+	margin-left: 5%;
+}
+
+.message p{
+    font-size: 20px;
+}
+
+.quitbutton button {
+    width: 100%;
+    height: 38px;
+    padding-left: 14px;
+    font-family: Century Gothic;
+    font-size: 100%;
+    margin-bottom: 2%;
+    cursor: pointer;
+    letter-spacing: 2px;
+    color: #fff;
+    border-radius: 2px;
+    background-color: #9C0005;
+    border: 1px solid #9C0005;
+    -moz-box-shadow: rgba(0,0,0, .5) 0 0 5px;
+    -webkit-box-shadow: rgba(0,0,0, .5) 0 0 5px;
+    box-shadow: rgba(0,0,0, .5) 0 0 5px;
+    transition: .5s;
+
+}
+
+#button-alumni button {
+	width: 100%;
+    height: 38px;
+    padding-left: 14px;
+    font-family: Century Gothic;
+    font-size: 100%;
+    margin-bottom: 2%;
+    cursor: pointer;
+    letter-spacing: 2px;
+    color: #fff;
+    border-radius: 2px;
+    background-color: #9C0005;
+    border: 1px solid #9C0005;
+    -moz-box-shadow: rgba(0,0,0, .5) 0 0 5px;
+    -webkit-box-shadow: rgba(0,0,0, .5) 0 0 5px;
+    box-shadow: rgba(0,0,0, .5) 0 0 5px;
+    transition: .5s;
+}
+
+#button-alumni button:hover {
+    background-color: #BF0209;
+    border: 1px solid #BF0209;
+}
+
+#button-indicator{
+	text-align: center;
+    font-family: Century Gothic;
+    color: #8C8C8C;
+}
+
+#button-facebook button {
+	width: 100%;
+    height: 38px;
+    padding-left: 14px;
+    font-family: Century Gothic;
+    font-size: 100%;
+    margin-bottom: 9%;
+    cursor: pointer;
+    letter-spacing: 2px;
+    color: #fff;
+    border-radius: 2px;
+    background-color: #3a5795;
+    border: 1px solid #3a5795;
+    -moz-box-shadow: rgba(0,0,0, .5) 0 0 5px;
+    -webkit-box-shadow: rgba(0,0,0, .5) 0 0 5px;
+    box-shadow: rgba(0,0,0, .5) 0 0 5px;
+    transition: .5s;
+}
+
+#button-facebook button:hover {
+    background-color: #243D73;
+    border: 1px solid #243D73;
+}
+
+@media screen and (max-width:960px){
+
+    .content-login {
+        width: 50%;
+        left: 26%;
+    }
+
+    #exit-button {
+        margin-left: 94.1%;
+    }
+}
+
+@media screen and (max-width:1122px){
+
+
+    #exit-button {
+        margin-left: 93%;
+    }
+}
+
+
+@media screen and (max-width:768px){
+
+
+    #exit-button {
+        margin-left: 93%;
+    }
+}
+
+
+@media screen and (max-width:481px) {
+
+    /* Login */
+
+    .content-login {
+        width: 81%;
+        left: 10%;
+    }
+
+    #exit-button {
+        margin-left: 91.1%;
+    }
+}
+
+@media screen and (max-width:320px) {
+
+    #exit-button {
+        margin-left: 90.5%;        
+    }
+}

@@ -1,0 +1,264 @@
+body {
+  background-position: top left;
+  background-repeat: no-equal;
+  background-attachment: fixed;
+  background-color: white;
+  font-size: 87.5%;
+  line-height: 1.5;
+  font-family: sans-serif;
+}
+#mainview header {
+  background: green;
+  border: none;
+  height: 70px;
+  position: fixed;
+  border-bottom: 4px solid green;
+  border-left: 30px solid green;
+  color: #ffffff;
+  width: 100%;
+  margin-top: -20px;
+  margin-left: -8px;
+}
+.btn {
+  color: red;
+}
+.main {
+  
+}
+
+}
+#imgBack {
+    width: 45px;
+    margin-top: 4px;
+    margin-left: -2px;
+}
+.tbl table { 
+      border-collapse:collapse;
+      width: 100%;
+      color: #588c7e;
+      font-family: sans-serif;
+      font-size: 25px;
+      text-align: center;
+      border: 1px #000 solid;
+}
+ 
+th {
+        background-color: #588c7e;
+        color: white;
+ }
+tr:nth-child(even) {
+    background-color: #e8e8e8;
+}
+
+.form-basic{
+    /*max-width: 640px;*/
+    margin: 0 auto;
+    padding: 25px;
+    max-width: 1000px;
+
+    background-color:  #ffffff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+
+    font: bold 14px sans-serif;
+    text-align: center;
+    
+}
+.btnsubmit{
+  width: 50%;
+}
+#scrollToTopButton {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  height: 60px;
+  width: 60px;
+  font-size: xx-large;
+  border-radius: 50%;
+  border: 0;
+  outline: 0;
+  background-color: green;
+  cursor: pointer;
+  box-shadow: 2px 4px 16px rgba(0,0,0,0,3);
+  opacity: 0;
+  transform: scale(0);
+  visibility: hidden;
+  transition: .2s;
+
+}
+#scrollToTopButton.show{
+    opacity: 1;
+    transform: scale(1);
+    visibility: visible;
+}
+.paragraph p {
+    text-align: justify;
+    font-size: 15px;
+    color: #262626;
+    font-family: Century Gothic;
+   padding-top: 65px;
+}
+
+.form-basic .form-row{
+    text-align: left;
+    margin-bottom: 22px;
+}
+
+.form-basic .form-title-row{
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+/* The form title */
+
+.form-basic h1{
+    display: inline-block;
+    box-sizing: border-box;
+    color:  #4c565e;
+    font-size: 24px;
+    padding: 0 10px 15px;
+    border-bottom: 2px solid #6caee0;
+    margin: 0;
+}
+
+.form-basic .form-row > label span{
+    display: inline-block;
+    box-sizing: border-box;
+    color: #5F5F5F;
+    width: 300px;
+    text-align: right;
+    vertical-align: top;
+    padding: 12px 25px;
+	font-size: 16px;
+}
+
+.form-basic input{
+    color:  #5f5f5f;
+    box-sizing: border-box;
+    width: 500px;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    padding: 12px;
+    border: 1px solid #dbdbdb;
+	font-size: 16px;
+}
+
+.form-basic #tbl input {
+	color:  #5f5f5f;
+    box-sizing: border-box;
+    width: 150px;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    padding: 12px;
+    border: 1px solid #dbdbdb;
+	font-size: 16px;
+	
+}
+
+.form-basic input[type=radio],
+.form-basic input[type=checkbox]{
+    box-shadow: none;
+    width: auto;
+	
+}
+
+.form-basic input[type=checkbox]{
+    margin-top: 13px;
+	
+}
+
+.form-basic select{
+    background-color: #ffffff;
+    color:  #5f5f5f;
+    box-sizing: border-box;
+    max-width: 340px;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    padding: 12px 8px;
+    border: 1px solid #dbdbdb;
+	
+}
+
+.form-basic textarea{
+    color:  #5f5f5f;
+    box-sizing: border-box;
+    width: 540px;
+    height: 80px;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    font: normal 13px sans-serif;
+    padding: 12px;
+    border: 1px solid #dbdbdb;
+    resize: vertical;
+	font-size: 16px;
+}
+
+.form-basic .form-radio-buttons{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.form-basic .form-radio-buttons > div{
+    margin-top: 10px;
+}
+
+.form-basic .form-radio-buttons label span{
+    margin-left: 8px;
+    color: #5f5f5f;
+    font-weight: normal;
+}
+
+.form-basic .form-radio-buttons input{
+    width: auto;
+}
+
+.form-basic button{
+    display: block;
+    border-radius: 2px;
+    background-color:  #6caee0;
+    color: #ffffff;
+    font-weight: bold;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    padding: 14px 22px;
+    border: 0;
+    margin: 40px 183px 0;
+
+}
+
+
+@media (max-width: 600px) {
+
+    .form-basic{
+        padding: 30px;
+        max-width: 480px;
+    }
+
+    .form-basic .form-row{
+        max-width: 300px;
+        margin: 25px auto;
+        text-align: left;
+    }
+
+    .form-basic .form-title-row{
+        margin-bottom: 50px;
+    }
+
+    .form-basic .form-row > label span{
+        display: block;
+        text-align: left;
+        padding: 0 0 15px;
+    }
+
+    .form-basic select{
+        width: 340px;
+    }
+
+    .form-basic input[type=checkbox]{
+        margin-top:0;
+    }
+
+    .form-basic .form-radio-buttons > div{
+        margin: 0 0 10px;
+    }
+
+    .form-basic button{
+        margin: 0;
+    }
+   
+
+}
