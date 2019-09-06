@@ -1,0 +1,89 @@
+<style>
+ 
+		.container {
+			text-align: center;
+		}
+		.label-class {
+			background-color: rgba(0,0,0,.75);
+			color: #fff;
+			padding: 10px;
+			text-align: center;
+		}
+		.wrapper-class {
+			border-radius: 20px;
+			box-shadow: 2px 2px 2px rgba(0,0,0,.35);
+		}
+		img {
+			margin-bottom: 10px;
+		}
+		.main-header {
+			margin-top: 40px;
+			font-size: 4.5em;
+		}
+		h3 {
+			margin-top: 40px;
+			color: #DE535B;
+		}
+		pre {
+			background-color: #ddd;
+			color: #444;
+			padding: 10px;
+			white-space: normal;
+			font-size: .9em;
+			width: 50%;
+			margin: 0 auto 20px;
+			white-space: nowrap;
+		}
+		p {
+			font-weight: 300;
+			color: #999;
+			font-size: 1.5em;
+			margin: 0 0 50px;
+		}
+		.text {
+			margin-bottom: 10px;
+			font-size: 1.15em;
+		}
+		p > span {
+			color: #DE535B;
+			font-weight: 400;
+			font-size: .95em;
+		}
+		h4 {
+			margin: 4px 0;
+			color: #50a4e2;
+		}
+		.example-label {
+			color: #777;
+			margin-bottom: 10px;
+			height: 40px;
+		}
+		.github-ribbon {
+		  position: fixed; 
+		  z-index: 1000; 
+		  top: 0; 
+		  right: 0; 
+		  border: 0;
+		}
+		.main-text {
+			margin-bottom: 20px;
+		}
+		.license {
+			width: 50%;
+			margin: 0 auto;
+		}
+		@media screen and (max-width: 767px) {
+			pre, .license {
+				width: 90%;
+			}
+		}
+		@media screen and (max-width: 480px) {
+			pre, .license {
+				width: 100%;
+			}
+		}
+		.foot-text {
+			color: #DE535B;
+			margin-top: 30px;
+		}
+	</style>
