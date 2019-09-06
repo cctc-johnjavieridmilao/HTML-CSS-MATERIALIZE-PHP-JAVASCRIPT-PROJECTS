@@ -1,0 +1,213 @@
+body::-webkit-scrollbar {
+    width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+}
+
+.order a {
+    font-size: 20px;
+}
+
+.card .card-content .menus {
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card .card-content .menus strong {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.f_blue {
+    background-color: #3b5998;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.c_name h3 {
+    margin-top: 100px;
+}
+
+.form-input {
+    border-bottom: white 1px solid !important;
+    color: #333;
+}
+
+span.divider {
+    border-top: 1.5px solid #dbdbdb;
+    height: 1px;
+    width: 100%;
+    display: block;
+}
+
+.form-input:focus {
+    border-bottom: white 1px solid !important;
+    outline: none !important;
+    box-shadow: 0 0 10px #ffffff !important;
+}
+
+button.sign-in-btn {
+    width: 100%;
+    background-color: transparent;
+    height: 50px;
+}
+
+#btn_text {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+button.sign-in-btn:hover {
+    background-color: #dddedf77;
+}
+
+button.sign-in-btn:focus {
+    background-color: #dddedf77;
+}
+
+.sign-up-text {
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.sign-up-text a {
+    color: #cfcfcf;
+    font-weight: bold;
+}
+
+.sign-in-text a {
+    color: #cfcfcf;
+    font-weight: bold;
+}
+
+.sign-in-text {
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#logo {
+    margin-top: 5px;
+}
+
+#logo img {
+    width: 120px;
+    height: 120px;
+}
+
+#logo p {
+    font-size: 18px;
+}
+
+.tabs .indicator {
+    background-color: #eaee0e;
+    /*Custom Color Of Indicator*/
+}
+
+#brand-logo {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#upload_icon i {
+    font-size: 100px;
+}
+
+.tabs-content,
+.carousel,
+.carousel-slider {
+    height: 550px;
+    overflow-y: auto;
+}
+
+.tabs-content::-webkit-scrollbar {
+    width: 2px;
+}
+
+.tabs::-webkit-scrollbar {
+    height: 4px;
+}
+
+.tabs::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+}
+
+
+.progress,
+.indeterminate {
+    background-color: yellow;
+}
+
+.account_style {
+    border-radius: 25px;
+}
+
+.collection.show_all.unn li {
+    background-color: #c2c2c2;
+}
+
+#c {
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 50%;
+}
+
+.collection {
+    border-radius: 25px;
+}
+
+.download_file {
+    color: rgb(10, 185, 10);
+}
+
+.preloader-wrapper.small {
+    height: 20px;
+    width: 20px;
+}
+
+.show,
+.show_reply {
+    font-size: 13px;
+    color: #0000EE;
+}
+
+#show_tabs {
+    display: none;
+}
+
+.collection.bg-grey li {
+    background-color: #cfc8c8;
+}
+
+h4 {
+    padding: 0;
+    margin: 0;
+}
+
+.header_tabs_view {
+    font-size: 20px;
+    font-weight: 790;
+    padding: 10px;
+}
+
+.text-is-grey {
+    color: #5a5858;
+}
+
+.secondary-content i {
+    padding: 7px;
+    font-size: 17px;
+}
